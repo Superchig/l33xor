@@ -1,3 +1,4 @@
+# Substitution when pattern and replacement are in hashes.
 module Substitution
   module_function
 
@@ -10,9 +11,9 @@ module Substitution
   end
 
   def reverse_leet(str, hash)
-    temp_str = str.dup
+    t_str = str.dup
 
-    hash.each { |pattern, replacement| temp_str.gsub!(replacement, pattern.inspect) }
+    hash.each { |pat, rep| t_str.gsub!(rep, pat.inspect) }
 
     temp_str
   end

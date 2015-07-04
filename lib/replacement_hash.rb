@@ -1,3 +1,4 @@
+# Holds all the hashes used for replacing words.
 module ReplacementHash
   DEFAULT = {
     /\belite\b/i => "l33t",
@@ -10,13 +11,11 @@ module ReplacementHash
 
   HARDCORE = DEFAULT
              .merge(
-               {
-                 /h/i => "|-|",
-                 /a/i => "4",
-                 /e/i => "3",
-                 /w/i => "\\/\\/",
-                 /i/i => "1",
-                 /o/i => "0",
-               }
+               /h/i => "|-|",
+               /a/i => "4",
+               /e/i => "3",
+               /w/i => "\\/\\/",
+               /i/i => "1",
+               /o/i => "0"
              )
 end

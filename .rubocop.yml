@@ -7,3 +7,10 @@ Style/PercentLiteralDelimiters:
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 Style/StringLiterals:
   Enabled: false
+
+# Welp. I know that I'm not supposed to use global variables, but still...
+Style/GlobalVars:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15

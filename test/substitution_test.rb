@@ -3,6 +3,7 @@ require 'require_all'
 
 require_rel '../lib/substitution.rb'
 
+# Tests the substitution module
 class TestSubstitution < Minitest::Test
   def test_hsub
     before_str = "The normals are amongst us! Beware of elite hackers."
