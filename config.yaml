@@ -1,0 +1,13 @@
+---
+!ruby/regexp /\belite\b/i: l33t
+!ruby/regexp /\bnormal/i: n00b
+!ruby/regexp /\bhacker/i: haxx0r
+!ruby/regexp /\byou/i: j00
+!ruby/regexp /\bchick/i: chix0r
+!ruby/regexp /fear/i: ph33r
+!ruby/regexp /h/i: "|-|"
+!ruby/regexp /a/i: '4'
+!ruby/regexp /e/i: '3'
+!ruby/regexp /w/i: "\\/\\/"
+!ruby/regexp /i/i: '1'
+!ruby/regexp /o/i: '0'

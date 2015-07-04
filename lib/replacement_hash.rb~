@@ -1,0 +1,18 @@
+module ReplacementHash
+  DEFAULT = {
+    /\belite\b/i => "l33t",
+    /\bnormal/i => "n00b",
+    /\bhacker/i => "haxx0r",
+    /\byou/i => "j00",
+    /\bchick/i => "chix0r",
+  }
+
+  HARDCORE = {
+    /h/i => "|-|",
+    /a/i => "4",
+    /e/i => "3",
+    /w/i => "\\/\\/",
+    /i/i => "1",
+    /0/i => "0",
+  }.merge(DEFAULT)
+end

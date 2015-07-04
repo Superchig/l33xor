@@ -1,0 +1,11 @@
+module Substitution
+  module_function
+
+  def hsub(str, hash)
+    temp_str = str.dup
+
+    hash.each { |pattern, replacement| temp_str.gsub!(pattern, replacement) }
+
+    temp_str
+  end
+end
