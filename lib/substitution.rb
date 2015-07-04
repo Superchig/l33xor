@@ -15,6 +15,6 @@ module Substitution
 
     hash.each { |pat, rep| t_str.gsub!(rep, pat.inspect) }
 
-    temp_str
+    t_str
   end
 end
