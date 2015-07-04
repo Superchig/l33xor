@@ -4,6 +4,7 @@ require 'yaml'
 
 require_rel '../lib/'
 
+# Could probably put most of these functions into a module.
 def write_config_file(replacement_hash)
   config_file = File.open("config.yaml", "w")
   config_file.puts(YAML.dump(replacement_hash))
